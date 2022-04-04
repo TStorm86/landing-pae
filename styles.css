@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100%;   
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    padding: 12px 0;
+    background-color: #05386b;
+}
+
+.logo{
+    text-align: center;
+    color: #5cdb95;
+}
+
+.ntr{
+    font-size: 300%;
+    min-width: 150px;
+}
+
+.ntr a{
+    color: #5cdb95;
+}
+
+
+.navlinks ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.list-item{
+    flex: 1;
+}
+.navlinks a{
+    padding: 12px;
+    color: #5cdb95;
+}
+
+header section{
+    background-color: #379683;
+    padding: 48px 0;
+}
+
+.secchild{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #05386b;
+}
+
+.firstbox{
+    width: 50%;
+    padding: 20px 0;
+}
+
+.secondbox{
+    width: 50%;
+}
+
+.firstbox  h2, p{
+    padding-bottom: 18px;
+}
+
+.firstbox button{
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 2px ridge #5cdb95;
+    background-color: #05386b;
+}
+
+.firstbox button a{
+    color: #5cdb95;
+    font-weight: bold;
+}
+
+.zenpic{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* ----------HEADER ENDS HERE---------- */
+
+/* ----------2ND SECTION STARTS HERE----------- */
+
+.mentors{
+    background-color: #dce4d0;
+    color: #379683;
+}
+
+.mentors h2{
+    padding: 36px 0;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.quartet{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.picframe{
+    height: 200px;
+    border: 1px solid #379683;
+    margin-bottom: 12px;
+}
+
+.mentorbox{
+    text-align: center;
+    width: 240px;
+    flex-shrink: 1;
+}
+
+.mentorbox h3{
+    margin-bottom: 12px;
+}
+
+.mentorbox p{
+    margin-bottom: 24px;
+}
+
+.tutorpic{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .....................2ND SECTION ENDS HERE.......................... */
+
+
+/* -------------------3RD SECTION STARTS HERE------------ */
+
+.quotesect{
+    background-color: #05386b;
+    padding: 40px 0 20px 0;
+}
+
+.quotebox{
+    width: 50%;
+    margin: 0 auto;
+    color: #5cdb95;
+    font-style: italic;
+    font-size: 90%;
+}
+
+.goleft{
+    text-align: left;
+}
+
+.goright{
+    text-align: right;
+}
+
+
+/* ------------------------------------4TH SECTION STARTS HERE---------------------------------------------- */
+
+.actioncont{
+    background-color: #dce4d0;
+    padding: 48px 0;
+}
+
+.actionbox{
+    background-color: #05386b;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #5cdb95;
+    padding: 24px 0 12px 0;
+}
+
+.leftact{
+    width: 40%;
+    text-align: left;
+}
+
+.rightact{
+    width: 30%;
+    text-align: center;
+}
+
+.leftact h4{
+    padding: 8px 0;
+    font-size: 120%;
+}
+
+.leftact p{
+    font-style: italic;
+    font-size: 90%;
+}
+
+.rightact button{
+    padding: 8px 24px;
+    background-color: #05386b;
+    border: 1px solid #5cdb95;
+    border-radius: 5px;
+}
+
+.rightact button a{
+    color: #5cdb95;
+}
+
+/* ------------------------------------ 4TH SECTION ENDS HERE ------------------------- */
+
+/* -------------------------------FOOTER STARTS HERE-------------------------------*/
+
+footer{
+    background-color: #05386b;
+    padding: 24px 0 12px 0;
+}
+
+.foot{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    color: #5cdb95;
+    
+}
+
+/* --------------------------FOOTER ENDS HERE-------------------------------- */
